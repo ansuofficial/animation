@@ -1,5 +1,6 @@
 body {
     background: #212121;
+    overflow: hidden;
 }
 
 .container {
@@ -36,4 +37,35 @@ body {
         transform: rotateX(70deg) translateZ(50px) translateY(-50vmin);
         filter: hue-rotate(180deg);
     }
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-wrapper {
+    color: rgb(103, 81, 223);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scocials-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.scocials-container i {
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.scocials-container i:hover {
+    color: deeppink
 }
